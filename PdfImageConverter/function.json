@@ -2,14 +2,14 @@
   "disabled": false,
   "bindings": [
     {
-      "name": "idscanstagging ",
+      "name": "idscanstagging",
       "type": "blobTrigger",
       "direction": "in",
       "path": "docs/{name}",
       "connection": "StorageConnectionString"
     },
     {
-      "name": "idscanstagging ",
+      "name": "idscanstagging",
       "type": "blob",
       "path": "images/{name}.png",
       "connection": "StorageConnectionString",
